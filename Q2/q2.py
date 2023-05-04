@@ -43,13 +43,13 @@ def Q2():
     for str in maxD:
         print(str, end=" ")
     print()
-    print(f"Maximum Temperature Difference: {maxi:.2f} Celcius")
+    print(f"Maximum Temperature Difference: {maxi:.1f} Celcius")
     
     print("Day with the Smallest Temperature Variation: ", end="")
     for str in minD:
         print(str, end=" ")
     print()
-    print(f"Minimum Temperature Difference: {mini:.2f} Celcius")
+    print(f"Minimum Temperature Difference: {mini:.1f} Celcius")
             
     # file close 
     f.close()

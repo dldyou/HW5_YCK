@@ -32,9 +32,9 @@ def Q1():
     avg_hi /= cnt
     # print answer
     print("*** Annual Temperature Report for Seoul in 2022 ***")
-    print(f"Average Temperature: {avg:.1f} Celsius")
-    print(f"Average Minimum Temperature: {avg_lo:.1f} Celsius")
-    print(f"Average Maximum Temperature: {avg_hi:.1f} Celsius")
+    print(f"Average Temperature: {avg:.2f} Celsius")
+    print(f"Average Minimum Temperature: {avg_lo:.2f} Celsius")
+    print(f"Average Maximum Temperature: {avg_hi:.2f} Celsius")
 
     # file close 
     f.close()
